@@ -1,0 +1,153 @@
+html{
+    width: 100%;
+} 
+/* navigation bar style */
+.nav{
+    background-color: #975555;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  
+    
+}
+img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#navbar{
+    flex-direction: row;
+    padding-bottom: 50px;
+    margin-left: 200px;
+}
+/* navbar list style */
+#navbar, ul,li{
+    color: white;
+    font-size: 18px;
+    display: inline-flex;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 30px;
+    font-weight: 800;
+  
+    
+    
+    
+}
+h3{
+    padding-left: 20px;
+}
+.home {
+    color: cadetblue;
+}
+.foodDrinks{
+    color: black;
+}
+.contact{
+    color:chocolate
+}
+/* anchor styling for the list */
+li,a{
+    text-decoration: none;
+    cursor: pointer;
+    color:white
+}
+/* list hovering property */
+a:hover{
+    color:green;
+}
+.main{
+    background-color: #D1B0B0;
+    height: 135vh;
+    margin-top: -19px;
+    
+}
+/* styling hotel header */
+#head{
+    padding-top: 5px;
+    font-family: fantasy;
+   
+}
+h3{
+    animation:blinking 2.0s infinite;
+}
+@keyframes blinking{
+    0%{color:red}
+    50%{ color: yellow;}
+    80%{ color: turquoise;}
+    100%{color: green;}
+    
+}
+/* images of the hotels */
+.Firstrow{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+      }
+#outside{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+#inside{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+#swimming{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+ h5{
+    
+    padding-left:20px ;
+} 
+p{
+    padding-left: 20px;
+}
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#outside2{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+#inside2{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+#swimming2{
+    background-color: #E2DADA;
+    width: fit-content;
+}
+.footer{
+    background-color:#975555;
+    margin-top: 10px;
+    padding-right:100px;
+    padding-left: 100px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: #975555;
+    margin-top: -10px;
+}
+a,h6{
+    color: black;
+}
