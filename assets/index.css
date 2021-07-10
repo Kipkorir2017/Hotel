@@ -144,6 +144,11 @@ p{
     display: flex;
     justify-content: space-between;
 }
+.contactus{
+    background-color: #E2DADA;
+    text-align: center;
+
+}
 footer{
     background-color: #975555;
     margin-top: -10px;
@@ -151,3 +156,12 @@ footer{
 a,h6{
     color: black;
 }
+/* @media screen and(max-width:768px){
+    #nav ul li{
+        display: block;
+    }
+    .Firstrow{
+        display: block;
+    }
+    
+} */
