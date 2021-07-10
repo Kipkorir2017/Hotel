@@ -3,7 +3,7 @@ function validate(){
     var password =document.getElementById("form")("password").value;
     // validating email
     atpos=email.IndexOf("@");
-    dotpos =dotpos = email.lastIndexOf(".");
+    dotpos =email.lastIndexOf(".");
     if(atpos <1 ||(dotpos - atpos < 2)){
         alert("please enter a correct email");
         return false;
